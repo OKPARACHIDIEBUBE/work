@@ -1,0 +1,231 @@
+.contianer{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 500px;
+
+}
+.us{
+    box-shadow: 0px 9px 7px rosybrown ;
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.img1 img{
+    border: 3px solid black;
+    box-shadow: 0px 9px 7px rgb(214, 168, 168);
+    border-radius: 40px;
+}
+.img5 img{
+    border: 3px solid black;
+    box-shadow: 0px 9px 7px rgb(214, 168, 168);
+    border-radius: 40px;
+}
+.headerimg{
+    display: flex;
+    justify-content: center;
+    border: radius 200px;  
+    box-shadow: 50px;
+    border-radius: 30px; 
+   
+    
+}
+.headerwrite-up{
+    justify-content: space-around;
+
+}
+
+.man{
+    display: flex ;
+    justify-content: center;
+}
+.barimg{
+    /* display: flex;
+    justify-content: center; */
+    gap: 2rem;
+    padding-left: 250px;
+}
+.barimg-bodya{
+    
+    background-image: url(../images/amen.png);
+}
+.img3write-upb-bodya{
+   justify-content: center;
+   color:black;
+   background-image: url(../images/amen.png);
+   align-items: center;
+} 
+.page-content{ 
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.page-content1{
+    background-color:azure ;
+    border-radius: 20px;
+}
+.page-content2{
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.page-content3{
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+.page-content4{
+    background-color: bisque;
+    border-radius: 20px;
+}
+.page-content5{
+    background-color:wheat;
+    border-radius: 20px;
+}
+.img3write-up{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.img3write-upb{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.write-upb{
+    background-color: wheat;
+    color: black;
+    border-radius: 15px;
+}
+.write-upb h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write-upc h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write-upc{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+}
+.write-upd{
+    background-color:snow;
+    color: black;
+    border-radius: 15px;
+}
+.write-upd h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3write-upe{
+    display: flex;
+    justify-content: space-around;
+}
+.write-upe h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write-upe{
+    background-color: cornsilk;
+    color: black;
+    border-radius: 30px;
+    gap: 1em;
+}
+.write-upf{
+    background-color: rgb(223, 175, 141);
+    color: black;
+    border-radius: 15px;
+}
+.write-upf h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write-upg{
+    background-color:rgb(210, 236, 184);
+    color: black;
+    border-radius: 20px;
+}
+.write-upg h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img4 a h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(210, 236, 184);
+    color: black;
+    border-radius: 200px;
+    height: 100px;
+    
+    
+}
+.img4write-up-bodya{
+    background-image: url(../images/amen.png);
+    background-color: wheat;
+    
+}
+.img4write-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img5{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.img5write-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.imgtwowrite-up h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.page1{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+.page-bodya{
+    background-image: url(../images/amen.png);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-content6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

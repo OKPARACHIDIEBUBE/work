@@ -1,0 +1,120 @@
+.container1{
+
+}
+.mumy{
+   margin-top: 25px;
+}
+.zone{
+ 
+    background-color: blue;
+    border-bottom-right-radius: 1000px 400px;
+    border-bottom-left-radius: 900px 200px;
+    /* width: 110%; */
+    height: 410px;
+}
+.ozone{
+    background-color: rgb(47, 223, 47);
+    border-bottom-right-radius: 800px 300px;
+    border-bottom-left-radius: 250px 60px;
+    /* width: 120%; */
+    height: 450px;
+
+}
+.bon{
+    margin-top: -845px;
+    margin-left: 652px;
+}
+.ovo{
+    margin-left: 655px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    border-radius: 100px;
+
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 27px;
+}
+.man{
+    float: right;
+    margin-top: -863px;
+}
+.item4{
+    display: flex;
+    justify-content: center;
+    margin-top: -1330px;
+    align-items: center;
+    padding-left: 300px;
+}
+p{
+    text-align: center;
+}
+.mm p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+    color:black;
+}
+.on{
+    background-color: blue;
+    margin-right: 50px;
+    color: white;
+    gap: 0px; 
+}
+.off{
+    margin-top: -50px;
+    padding-left: 50px;
+    color: black;
+}
+.of1{
+    margin-top:-50px ;
+    padding-left: 50px;
+    color: black;
+}
+.of2{
+    margin-top: -50px;
+    padding-left: 50px;
+    color:black;
+}
+.d{ 
+    display: flex;
+    justify-content: center;
+}  
+.c{
+    margin-top: -90px;
+    color:rgb(96, 247, 96);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.d{
+    margin-top: -90px;
+    color: antiquewhite;
+    font-size: 30px;
+}
+.rok{
+    background-color: rgb(61, 236, 61);
+    width: 500px;
+    height: 100px;
+
+}
+.bee{
+    background-color: rgb(32, 32, 233);
+    width: 600px;
+    height: 100px;
+    float: right;
+    margin-top: -100px;
+    border-bottom-left-radius: 300px ;
+}
+.rok1{
+    margin-right: 20px;
+    border-bottom-left-radius: 300px;
+}

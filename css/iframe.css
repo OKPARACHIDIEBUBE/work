@@ -1,0 +1,11 @@
+iframe:focus{
+    outline: none;
+}
+iframe[seamless]{
+    display: block;
+}
+body{
+    background-image: url(../images/download\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

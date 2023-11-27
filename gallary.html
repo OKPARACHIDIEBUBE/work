@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/gallary.css">
+</head>
+    <body>
+                <!-- images used to open the lightbox -->
+            <div class="row">
+                        <div class="column">
+                        <img src="images/Wallpapers/Gold Road.png" onclick="openModel();currentslide(1)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="images/Wallpapers/Arrow Building.png" onclick="openModel();currentslide(2)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="images/Wallpapers/Antelope Canyon.png" onclick="openModel();currentslide(3)" class="hover-shadow">
+                    </div>
+                    <div class="column">
+                        <img src="images/Wallpapers/Sky Train.png" onclick="openModel();currentslide(4)" class="hover-shadow">
+                        </div>
+                </div>
+                <!-- the modal/lightbox -->
+                <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+
+                        <div class="myslides">
+                        <div class="numbertext">1/4</div>
+                        <img src="images/Wallpapers/Fiery Sunset .png" style="width: 100%;">
+                    </div>
+                    <div class="myslides">
+                        <div class="numbertext">2/4</div>
+                        <img src="images/nbede.jpg" style="width: 100%">
+                    </div>
+                    <div class="myslides">
+                        <div class="numbertext">3/4</div>
+                    </div>
+                        <img src="images/Wallpapers/Android O.png" style="width:100%">              
+                    </div>
+                    <div class="myslides">
+                        <div class="numbertext">4/4</div>
+                        <img src="images/Wallpapers/6b68d9d973df3c58f5236e86a97dbb6a.jpg" style="width:100%">
+                    </div>
+                <!-- next/previous controls-->
+                <a class="previous" onclick="plusSlides(-1)">&#10095;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <!-- caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+                <!-- thumbnail image controls -->
+                <div class="column">
+                    <img class="demo" src="images/Wallpapers/Fire Sparks.png" onclick="currentslide(1)" alt="nature">
+                </div>
+                        <div class="column">
+                            <img class="demo" src="images/Wallpapers/Bricked Phone.png"onclick="currentslide(2)" alt="snow">
+                    </div> 
+                    <div class="column">
+                        <img class="demo" src="images/Wallpapers/Ferris Wheel.png"onclick="currentslide(3)" alt="Mountains">
+                    </div> 
+                    <div class="column">
+                        <img class="demo" src="images/Wallpapers/Silhouette Sunset.png"onclick="currentslide(4)" alt="lights">
+                    </div> 
+                </div>
+            </div>   
+    </body>
+</html>

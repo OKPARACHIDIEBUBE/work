@@ -1,0 +1,57 @@
+.container {
+    background-color: mintcream;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div {
+    width: 50px;
+}
+
+.header div img {
+    width: 50%;
+    height: 50px;
+    border-radius: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+} 
+
+.social {
+    width: 100%;
+}
+
+.social div {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+}
+
+.social div img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.sociallist {
+    position: absolute;
+    z-index: 1;
+    top: 1;
+    background-color: red;
+
+}
+
+.sociallist ul {
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <h1>logo</h1>
+            </div>
+             <div class="nav">
+                 <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">contact</a></li>
+                 </ul> 
+            </div> 
+            <div class="main">
+        <h4>registeration form</h4>
+        <fieldset>
+            <legend>register</legend>
+            <form action=""method="post">
+                <div>
+                    <label for="firstname">name</label>
+                    <input type="text" name="firstname" placeholder ="firstname" required>
+                    <input type="text" name="lastname" placeholder ="lastname">
+                </div>
+                
+                <div>
+                    <label for="firstname">username</label>
+                    <input type="text" name="username" placeholder="username">
+                </div>
+                <div>
+                    <label for="email">email</label>
+                    <input type="email" name="email" placeholder="email">
+                </div>
+                <div>
+                    <label for="dob">date of birth</label>
+                    <input type="date" name="dob" placeholder="date of birth">
+                </div>
+                <div>
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender">male
+                    <input type="radio" name="gender">female
+                </div>
+                <div>
+                    <label for="skill">skill</label>
+                    <input type="checkbox" name="">c
+                    <input type="checkbox" name="">c#
+                    <input type="checkbox" name="">css
+                    <input type="checkbox" name="html">HTML
+                    <input type="checkbox" name="">javascript
+                    <input type="checkbox" name="">python
+                </div>  
+                <div>
+                     <label for="level">level</label>
+                     <select name="level" id="">
+                        <option value="">select your level</option>
+                        <option value="beginer">beginer</option>
+                        <option value="intermediate">intermediate</option>
+                        <option value="advance">advance</option>
+                        <option value="master">master</option>
+                     </select>   
+
+                </div>  
+                <div>
+                    <label for="comment">comment</label>
+                    <textarea name="comment" id="" cols="30" rows="10" placeholder="mail" >mail</textarea>
+                <div>
+                </div>
+                    <label for="image">profile image</label>
+                    <input type="file" accept="image/png">
+                <div>
+                </div>
+                    <button type="reset" >reset</button>
+                    <button type="submit" >submit</button>
+                </div>
+                </form>
+            </fieldset> 
+        </div>
+    </div>        
+</body>
+</html>

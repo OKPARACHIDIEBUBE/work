@@ -1,0 +1,20 @@
+function greet(name) {
+    console.log('hello, ${name}');
+    // 
+}
+
+
+greet('chidiebube')
+// console.log(greet(miracle))
+
+function Add(firstname, lastname){
+    let sum=firstname + lastname;
+    console.log(sum);
+}
+
+function areaofcircle(r) {
+    let area=3.14 *(r *r) 
+
+    return area;
+}
+console.log( areaofcircle$( areaofacircle(5)))

@@ -1,0 +1,50 @@
+
+header img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem ;
+    font-family: sans-serif;
+    list-style-type: none;
+
+}
+.okpara{
+    text-align: center;
+    background-image: url('../images/jeremy-bishop-hppWAs2WTZU-unsplash.jpg');
+    height: 150px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+    color: antiquewhite;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    /* margin-top: 20px; */
+}
+
+main div {
+    width: 300px;
+    border: 1px solid green;
+}
+
+main div p{
+    padding: 10px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: red;
+    color: blue;
+}

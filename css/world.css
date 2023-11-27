@@ -1,0 +1,83 @@
+.a{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: darkgreen;
+    font-size: 70px;
+   
+   
+}
+body{
+    background-image: url(../images/download\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin-top: -50px;
+    
+}
+input{
+    width: 800px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    text-align: center;
+   
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.b{
+    padding: 0 20px;
+}
+.d{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.d img{
+    width: 450px;
+}
+.e{
+    padding: 0 20px;
+    margin-top:60px ;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+.e img{
+    width: 300px;
+    height: 600px;
+    border: 3px solid black;
+}
+video{
+    border: 3px solid rgb(35, 33, 33);
+    border-radius: 20px;
+}
+.f{
+    color:rgb(0, 2, 100);
+    font-style: italic;
+    font-size: x-large;
+
+}
+
+.g{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+.f img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid transparent;
+    padding: 50px;
+}
